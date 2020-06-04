@@ -1,0 +1,72 @@
+html {
+  background: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -999;
+}
+
+Header {
+  border-bottom: solid;
+  border-color: gray;
+}
+
+.navbar {
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 8px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+span {
+  margin-left: 10px;
+  color: white;
+  background-color: rgba(26, 128, 12, 0.685);
+}
+
+a {
+  color: gray;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+.container {
+  margin-top: 30px;
+  margin-left: 20px;
+  padding-bottom: 15px;
+  height: 600px;
+  background-color: white;
+  border: solid;
+  border-color: gray;
+  position: absolute;
+}
+
+.container h2 {
+  color: rgba(26, 128, 12, 0.685);
+  padding: 20px;
+  padding-bottom: 8px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+img {
+  float: left;
+  padding-right: 15px;
+  padding-bottom: 15px;
+  height: 400px;
+  width: 250px;
+}
