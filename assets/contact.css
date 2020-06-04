@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html {
   background: url(https://images.pexels.com/photos/220182/pexels-photo-220182.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)
     no-repeat center center fixed;
@@ -46,8 +50,10 @@ li:last-child {
   border-right: none;
 }
 .container {
+  width: 100%;
   margin-top: 30px;
   margin-left: 20px;
+  margin-right: 20px;
   padding-bottom: 15px;
   height: 600px;
   background-color: white;
@@ -63,10 +69,7 @@ li:last-child {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
-img {
-  float: left;
-  padding-right: 15px;
-  padding-bottom: 15px;
-  height: 400px;
-  width: 250px;
+.btn {
+  color: white;
+  background-color: rgba(26, 128, 12, 0.685);
 }
